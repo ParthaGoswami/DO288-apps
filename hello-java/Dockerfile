@@ -20,7 +20,7 @@ RUN   chmod -R 775 /opt/app-root
 
 EXPOSE 8080
 
-USER  1001
+#USER  1001
 
 # Run the fat JAR
 CMD   /opt/app-root/bin/run-app.sh
